@@ -8,7 +8,8 @@ module.exports = function (deployer) {
   deployer.deploy(
     MyToken,
     amount,
-    "0x956868751Cc565507B3B58E53a6f9f41B56bed74"
+    "0x0842Ad6B8cb64364761C7c170D0002CC56b1c498"
+    // kovan trusted forwarder
   );
 };
 
